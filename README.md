@@ -4,12 +4,19 @@
 
 Sistema de una biblioteca_BOOFLIX. 
 
-- Descripción: Es un sistema que gestiona procesos de una biblioteca, lo que busca el product owner es una búqueda rápida de los libros de la     biblioteca.
+- Descripción: Para este prototipo se ha realizado un análisis y
+observación en la empresa, de cómo funciona su proceso de Registro de los
+libros en el Instituto Nuestra señora del valle  de san Vicente de cañete
+bueno y lo ideal para sistemas de registro de
+Biblioteca es tener un control para:
 
 - Registro de alumnos que obtienen los libros.
 - Busqueda rapida de los libros.
 - Funcionalidad para agregar, eliminar y/o actualizar.
 - controlar el prestamo de cada libro.
-- infomacion actualizada.
+- Permitir actualizar infomacion .
 - Permisos de usuario.
 - Reporte de prestamo y devoluciones.
+- Inventario de los libros de la biblioteca
+- Control sobre el estado de los libros
+- 
