@@ -12,11 +12,9 @@ Biblioteca es tener un control para:
 
 - Registro de alumnos que obtienen los libros.
 - Busqueda rapida de los libros.
-- Funcionalidad para agregar, eliminar y/o actualizar.
 - controlar el prestamo de cada libro.
 - Permitir actualizar infomacion .
 - Permisos de usuario.
 - Reporte de prestamo y devoluciones.
 - Inventario de los libros de la biblioteca
 - Control sobre el estado de los libros
-- 
