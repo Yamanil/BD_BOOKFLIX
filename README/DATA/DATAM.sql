@@ -90,16 +90,16 @@ VALUES
       INSERT INTO persona
       (NOMPER,APEPER,DNIPER,IDUBI,TIPPER,GRADAUL,SECCAUL,SECTAUL,ESTADO)
       VALUES
-      ("Julio","quispe chavez",'77077399',3,'A','3','A','2','A'),
-      ("Julio Cesar","quispe chavez",'77077399',3,'A','3','A','2','A'),
-      ("Julio Cesar","quispe chavez",'77077399',3,'A','3','A','2','A'),
-      ("Julio Cesar","quispe chavez",'77077399',3,'A','3','A','2','A'),
-      ("Julio Cesar","quispe chavez",'77077399',3,'A','3','A','2','A'),
-      ("Julio Cesar","quispe chavez",'77077399',3,'A','3','A','2','A'),
-      ("Julio Cesar","quispe chavez",'77077399',3,'A','3','A','2','A'),
-      ("Julio Cesar","quispe chavez",'77077399',3,'A','3','A','2','A'),
-      ("Julio Cesar","quispe chavez",'77077399',3,'A','3','A','2','A'),
-      ("Julio Cesar","quispe chavez",'77077399',3,'A','3','A','2','A');
+      ("Julio","quispe sanchez",'77077399',3,'A','3','A','2','A'),
+      ("simon Cesar","pelaez chavez",'77077399',3,'A','3','A','2','A'),
+      ("joseph Cesar","yamani chavez",'77077399',3,'A','3','A','2','A'),
+      ("julio Cesar","salas chavez",'77077399',3,'A','3','A','2','A'),
+      ("jesus Cesar"," chavez",'77077399',3,'A','3','A','2','A'),
+      ("benja Cesar","quispe chavez",'77077399',3,'A','3','A','2','A'),
+      ("boo Cesar","quispe rivera",'77077399',3,'A','3','A','2','A'),
+      ("lee Cesar","quispe canales",'77077399',3,'A','3','A','2','A'),
+      ("alex Cesar","quispe canales",'77077399',3,'A','3','A','2','A'),
+      ("juan Cesar","quispe canaletas",'77077399',3,'A','3','A','2','A');
   
       SELECT * FROM persona;
       
@@ -122,8 +122,8 @@ VALUES
          INSERT INTO prestamo
          (IDBIBLI,IDLECT,IDLIB,FSALPRES,FENTPRES,CANTFALT,ESTADO)
 VALUES
-         (1,1,1,'01/02/2019','30/02/2019',4,'A'),
-         (1,1,1,'01/02/2019','30/02/2019',4,'A'),
+         (1,1,1,'01/02/2019','31/02/2019',4,'A'),
+         (1,1,1,'01/02/2019','31/02/2019',4,'A'),
         (1,1,1,'01/02/2019','30/02/2019',4,'A'),
          (1,1,1,'01/02/2019','30/02/2019',4,'A'),
          (1,1,1,'01/02/2019','30/02/2019',4,'A'),
