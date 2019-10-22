@@ -16,7 +16,7 @@ Esta base de datos estara conformada por los siguientes tablas:
 
 -AUTOR:contiene los datos (nombre,apellido,pais)
 -PERSONA :contiene los datos de la persona (nombre,codper,apellido,)
--LIBRO
+-LIBRO:
 -DETALLE_PRESTAMO
 -UBIGEO
 -PAIS
@@ -25,9 +25,16 @@ Esta base de datos estara conformada por los siguientes tablas:
 -PRESTAMO
 -USUARIO
 
-REALCIONE ENTRE LAS TABLAS
+REALCIONES ENTRE LAS TABLAS
 
 Para establecer las relaciones debe tener en cuenta lo siguiente:
+- Un país puede tener 0, uno o muchos autores.
+- Un libro puede tener 0, uno muchos autores.
+- Un libro puede tener 0, uno o muchas editoriales.
+- Un libro puede pertencer 0, uno o muchas categorias.
+- Una persona puede vivir en 0, uno o muchos lugares.
+- Un  persona puede tener 0, uno o muchos usuarios.
+- Una persona puede pedir 0, uno o muchos libros.
 
 
 
