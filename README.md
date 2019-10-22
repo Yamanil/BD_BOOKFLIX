@@ -10,6 +10,31 @@ libros en el Instituto Nuestra señora del valle  de san Vicente de cañete
 bueno y lo ideal para sistemas de registro de
 Biblioteca.
 
+ESTRUCTURA DE LAS TABLAS
+
+Esta base de datos estara conformada por los siguientes tablas:
+
+-AUTOR:contiene los datos (nombre,apellido,pais)
+-PERSONA :contiene los datos de la persona (nombre,codper,apellido,)
+-LIBRO
+-DETALLE_PRESTAMO
+-UBIGEO
+-PAIS
+-CATEGORIA
+-EDITORIAL
+-PRESTAMO
+-USUARIO
+
+REALCIONE ENTRE LAS TABLAS
+
+Para establecer las relaciones debe tener en cuenta lo siguiente:
+
+
+
+
+
+
+
 FUNCIONALIDADES:
 
 - Registro de alumnos que obtienen los libros.
