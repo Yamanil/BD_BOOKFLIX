@@ -100,7 +100,7 @@ CREATE TABLE UBIGEO (
 -- Table: USUARIO
 CREATE TABLE USUARIO (
     IDUSU int NOT NULL AUTO_INCREMENT COMMENT 'Codigo de usuario que es reconocido por la base de datos.',
-    CODPER int NULL COMMENT 'Codigo de usuario que se recoge de la tabla persona.',
+    IDPER int NULL COMMENT 'Codigo de usuario que se recoge de la tabla persona.',
     NOMUSU varchar(60) NULL COMMENT 'Este campo contiene el nombre de usuario.',
     PASSUSU varchar(60) NULL COMMENT 'Este campo contiene las contraseñas.',
     CONSTRAINT USUARIO_pk PRIMARY KEY (IDUSU)
