@@ -4,11 +4,13 @@
 
 Sistema de una biblioteca_BOOFLIX. 
 
-- Descripción: Para este prototipo se ha realizado un análisis y
+Descripción: Para este prototipo se ha realizado un análisis y
 observación en la empresa, de cómo funciona su proceso de Registro de los
 libros en el Instituto Nuestra señora del valle  de san Vicente de cañete
 bueno y lo ideal para sistemas de registro de
-Biblioteca es tener un control para:
+Biblioteca.
+
+FUNCIONALIDADES:
 
 - Registro de alumnos que obtienen los libros.
 - Busqueda rapida de los libros.
@@ -18,3 +20,6 @@ Biblioteca es tener un control para:
 - Reporte de prestamo y devoluciones.
 - Inventario de los libros de la biblioteca
 - Control sobre el estado de los libros
+
+
+
