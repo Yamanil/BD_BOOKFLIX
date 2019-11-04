@@ -12,7 +12,13 @@ VALUES
        ('ALEMANIA'),
        ('ECUADOR'),
        ('CHILE'),
-       ('VENEZUELA');
+       ('VENEZUELA'),
+       ('Cuba'),
+       ('Inglaterra'),
+       ('Indonesia'),
+       ('Portugal'),
+       ('Polonia'),
+       ('Rusia');
 SELECT * FROM PAIS;
 INSERT INTO autor
       (NOMAUT,APEAUT,IDPAIS)
