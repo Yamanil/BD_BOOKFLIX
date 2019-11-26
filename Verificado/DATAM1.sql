@@ -128,39 +128,39 @@ VALUES
        SELECT * FROM EDITORIAL;
        
        INSERT INTO libro
-      (IDAUT,IDCAT,IDEDI,TITLIB,CANTLIB,ANNLANZLIB,NUMPAGLIB,DESCLIB,ESTLIB)
+      (IDAUT,IDCAT,IDEDI,TITLIB,CANTLIB,ANNLANZLIB,NUMPAGLIB,DESCLIB,ESTLIB,ESTADO)
 VALUES
-       (1,2,3,'Una historia en la Habana',14,'10-2019',246,'Son los oscuros recodos de la mente , los detalle que mellan u alama hasta convertirla en aasesina','N'), 
-       (1,2,3,'Una historia en la Habana',14,'10-2019',246,'Son los oscuros recodos de la mente , los detalle que mellan u alama hasta convertirla en aasesina','N'),
-       (4,5,6,'Los que miran las estrellas',14,'09-2019',360,'los que miran las estrellas es un thriller policial donde acontecen varios casos basados en hechos reales','N'),
-       (7,5,6,'America fotografeada',14,'09-2019',160,'libros de fotografia de america del sur y centro america del fotografo leones david fecha','Nuevo'),
-       (9,9,6,'Diario de a bordo',14,'09-2019',392,'El naufrago de un pequeño yate, que queda varado deja al descurbierto un escenario macabro y demaciadas preguntas sin respuesta','N'),
-       (4,4,6,'Una mirada perdida',14,'09-2019',178,'La desaparicion de un niño chino pone en maarcha una investigacion a cargo de un grupo vapriopinto de personajes queiens adetran en el mundo de la comunidad chin','N'),
-       (4,3,6,'La vida prometida',14,'09-2019',184,'En ciudadania un diminuto pueblo de estados unidos un hombre de 45 años job se hace pasar por vidente','N'),
-       (3,2,1,'Nacionalismo catalan',14,'10-2019',266,'El nacionalismo catalán durante años ha llevado a cabo un proceso intencional y gradualista de influencia adoctrinadora con fines ideológicos, políticos y lingüísticos','N'),
-       (7,8,7,'la confesion del libio',14,'10-2019',146,'Un escritor, extravagante y caprichoso, se encuentra en sequía creativa y decide contar lo que no quiso nunca hacer, la historia de lo ocurrido en 1981 a un amigo apodado El Libio','N'),
-       (5,4,4,'Cinco dias para matar al Papa',14,'10-2019',264,'En “Cinco días para matar al Papa” el sexo, la religión y la muerte se dan cita en Santiago de Compostela a cinco días de la llegada del Papa.','N'),
-       (3,3,4,'Hijos del fuego',14,'10-2019',450,'Editorial Amarante presenta "Hijos del fuego", el culmen de la trilogía de Joaquín Castillo. ','N'),
-       (2,5,9,'ATARDECER',14,'10-2019',450,'Editorial Amarante presenta "ATARDECER", el culmen de la trilogía de Joaquín Castillo. ','N'),
-       (3,7,8,'Hijos del fuego',14,'10-2019',450,'Lo que sea", todo fuese. ','N'),
-       (7,1,7,'Hijos del fuego',14,'10-2019',450,'Fulminante", Respeto. ','N'),
-       (9,9,4,'Hijos del fuego',14,'10-2019',450,'Nada, La fantastica historia de heroes ','N'),
-       (3,6,5,'Hijos del fuego',14,'10-2019',450,'Ideas, Para que hacer lo mismo ','N'),
-       (8,4,3,'Hijos del fuego',14,'10-2019',450,'Vamo a ver','N'),
-       (7,5,6,'America fotografeada',14,'09-2019',160,'libros de fotografia de america del sur y centro america del fotografo leones david fecha','Nuevo'),
-       (9,9,6,'Diario de a bordo',14,'09-2019',392,'El naufrago de un pequeño yate, que queda varado deja al descurbierto un escenario macabro y demaciadas preguntas sin respuesta','N'),
-       (4,4,6,'Una mirada perdida',14,'09-2019',178,'La desaparicion de un niño chino pone en maarcha una investigacion a cargo de un grupo vapriopinto de personajes queiens adetran en el mundo de la comunidad chin','N'),
-       (4,3,6,'La vida prometida',14,'09-2019',184,'En ciudadania un diminuto pueblo de estados unidos un hombre de 45 años job se hace pasar por vidente','N'),
-       (3,2,1,'Nacionalismo catalan',14,'10-2019',266,'El nacionalismo catalán durante años ha llevado a cabo un proceso intencional y gradualista de influencia adoctrinadora con fines ideológicos, políticos y lingüísticos','N'),
-       (7,8,7,'la confesion del libio',14,'10-2019',146,'Un escritor, extravagante y caprichoso, se encuentra en sequía creativa y decide contar lo que no quiso nunca hacer, la historia de lo ocurrido en 1981 a un amigo apodado El Libio',''),
-       (5,4,4,'Cinco dias para matar al Papa',14,'10-2019',264,'En “Cinco días para matar al Papa” el sexo, la religión y la muerte se dan cita en Santiago de Compostela a cinco días de la llegada del Papa.','N'),
-       (3,3,4,'Señor de los anillos 1',14,'22-2000',450,'Editorial Amarante presenta "Hijos del fuego", el culmen de la trilogía de Joaquín Castillo. ','N'),
-	   (8,4,3,'Señor de los anillos 2',14,'05-2001',450,'los orcos se enfrentan con los humanos tratando de salvar el reino','N'),
-	   (8,4,3,'Señor de los anillos 3',14,'10-2003',450,'los humanos ganan la guerra','N'),
-	   (8,4,3,'caperucita roja',14,'10-2005',450,'un lobo se quiere comer ala niña','N'),
-	   (8,4,3,'pinocho',14,'10-2002',450,'pinocho es un niño de madera que le gusta engañar','N'),
-	   (8,4,3,'los tres chanchitos',14,'10-2019',450,'un lobo quiere comerce a los tres cachitos y los chanchitos no se dejan','N'),
-	   (8,4,3,'',14,'10-2019',450,'Vamo a ver','N');
+       (1,2,3,'Una historia en la Habana',14,'2019',246,'Son los oscuros recodos de la mente , los detalle que mellan u alama hasta convertirla en aasesina','N','A'), 
+       (1,2,3,'Una historia en la Habana',14,'2019',246,'Son los oscuros recodos de la mente , los detalle que mellan u alama hasta convertirla en aasesina','N','A'),
+       (4,5,6,'Los que miran las estrellas',14,'2019',360,'los que miran las estrellas es un thriller policial donde acontecen varios casos basados en hechos reales','N','A'),
+       (7,5,6,'America fotografeada',14,'2019',160,'libros de fotografia de america del sur y centro america del fotografo leones david fecha','N','A'),
+       (9,9,6,'Diario de a bordo',14,'2019',392,'El naufrago de un pequeño yate, que queda varado deja al descurbierto un escenario macabro y demaciadas preguntas sin respuesta','N','A'),
+       (4,4,6,'Una mirada perdida',14,'2019',178,'La desaparicion de un niño chino pone en maarcha una investigacion a cargo de un grupo vapriopinto de personajes queiens adetran en el mundo de la comunidad chin','N','A'),
+       (4,3,6,'La vida prometida',14,'2019',184,'En ciudadania un diminuto pueblo de estados unidos un hombre de 45 años job se hace pasar por vidente','N','A'),
+       (3,2,1,'Nacionalismo catalan',14,'2019',266,'El nacionalismo catalán durante años ha llevado a cabo un proceso intencional y gradualista de influencia adoctrinadora con fines ideológicos, políticos y lingüísticos','N','A'),
+       (7,8,7,'la confesion del libio',14,'2019',146,'Un escritor, extravagante y caprichoso, se encuentra en sequía creativa y decide contar lo que no quiso nunca hacer, la historia de lo ocurrido en 1981 a un amigo apodado El Libio','N','A'),
+       (5,4,4,'Cinco dias para matar al Papa',14,'2019',264,'En “Cinco días para matar al Papa” el sexo, la religión y la muerte se dan cita en Santiago de Compostela a cinco días de la llegada del Papa.','N','A'),
+       (3,3,4,'Hijos del fuego',14,'2019',450,'Editorial Amarante presenta "Hijos del fuego", el culmen de la trilogía de Joaquín Castillo. ','N','A'),
+       (2,5,9,'ATARDECER',14,'2019',450,'Editorial Amarante presenta "ATARDECER", el culmen de la trilogía de Joaquín Castillo. ','N','A'),
+       (3,7,8,'Hijos del fuego',14,'2019',450,'Lo que sea", todo fuese. ','N','A'),
+       (7,1,7,'Hijos del fuego',14,'2019',450,'Fulminante", Respeto. ','N','A'),
+       (9,9,4,'Hijos del fuego',14,'2019',450,'Nada, La fantastica historia de heroes ','N','A'),
+       (3,6,5,'Hijos del fuego',14,'2019',450,'Ideas, Para que hacer lo mismo ','N','A'),
+       (8,4,3,'Hijos del fuego',14,'2019',450,'Vamo a ver','N','A'),
+       (7,5,6,'America fotografeada',14,'2019',160,'libros de fotografia de america del sur y centro america del fotografo leones david fecha','N','A'),
+       (9,9,6,'Diario de a bordo',14,'2019',392,'El naufrago de un pequeño yate, que queda varado deja al descurbierto un escenario macabro y demaciadas preguntas sin respuesta','N','A'),
+       (4,4,6,'Una mirada perdida',14,'2019',178,'La desaparicion de un niño chino pone en maarcha una investigacion a cargo de un grupo vapriopinto de personajes queiens adetran en el mundo de la comunidad chin','N','A'),
+       (4,3,6,'La vida prometida',14,'2019',184,'En ciudadania un diminuto pueblo de estados unidos un hombre de 45 años job se hace pasar por vidente','N','A'),
+       (3,2,1,'Nacionalismo catalan',14,'2019',266,'El nacionalismo catalán durante años ha llevado a cabo un proceso intencional y gradualista de influencia adoctrinadora con fines ideológicos, políticos y lingüísticos','N','A'),
+       (7,8,7,'la confesion del libio',14,'2019',146,'Un escritor, extravagante y caprichoso, se encuentra en sequía creativa y decide contar lo que no quiso nunca hacer, la historia de lo ocurrido en 1981 a un amigo apodado El Libio','N','A'),
+       (5,4,4,'Cinco dias para matar al Papa',14,'2019',264,'En “Cinco días para matar al Papa” el sexo, la religión y la muerte se dan cita en Santiago de Compostela a cinco días de la llegada del Papa.','N','A'),
+       (3,3,4,'Señor de los anillos 1',14,'2019',450,'Editorial Amarante presenta "Hijos del fuego", el culmen de la trilogía de Joaquín Castillo. ','N','A'),
+	   (8,4,3,'Señor de los anillos 2',14,'2019',450,'los orcos se enfrentan con los humanos tratando de salvar el reino','N','A'),
+	   (8,4,3,'Señor de los anillos 3',14,'2019',450,'los humanos ganan la guerra','N','A'),
+	   (8,4,3,'caperucita roja',14,'2019',450,'un lobo se quiere comer ala niña','N','A'),
+	   (8,4,3,'pinocho',14,'2019',450,'pinocho es un niño de madera que le gusta engañar','N','A'),
+	   (8,4,3,'los tres chanchitos',14,'2019',450,'un lobo quiere comerce a los tres cachitos y los chanchitos no se dejan','N','A'),
+	   (8,4,3,'',14,'2019',450,'Vamo a ver','N','A');
  
  SELECT * FROM LIBRO;
  
@@ -317,8 +317,6 @@ VALUES
   (1,'2019-10-01','2');
   
   SELECT * FROM PRESTAMO_DETALLE;
-  
- 
 
       
       
