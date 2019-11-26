@@ -1,6 +1,6 @@
 -- Created by Vertabelo (http://vertabelo.com)
 -- Last modification date: 2019-10-22 11:41:52.104
- drop database BOOFLIX;
+
 -- tables
 -- Table: AUTOR
 CREATE DATABASE BOOFLIX;
