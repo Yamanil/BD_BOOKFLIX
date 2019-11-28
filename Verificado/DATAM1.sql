@@ -119,7 +119,7 @@ VALUES
        ('Raz. Matematico'),
        ('Literatura'),
        ('Cancion'),
-       ('Historia Española'),
+       ('Historia Española');
        /*30 registros correctos julio estuvo aqui*/
        
        SELECT * FROM CATEGORIA;
@@ -263,7 +263,7 @@ VALUES
       ("Julio ","salas chavez",'79019380',3,'A','3','A','2','A'),
       ("Jesus"," chavez",'15450885',3,'A','3','A','2','A'),
       ("Benjamin","quispe chavez",'74589323',3,'A','3','A','2','A'),
-      ("Cesar","Lizana",'149752439',3,'A','3','A','2','A'),
+      ("Cesar","Lizana",'14975243',3,'A','3','A','2','A'),
       ("Cesar","Leiva",'70785722',3,'A','3','A','2','A'),
       ("Alex ","quispe canales",'77129849',3,'A','3','A','2','A'),
       ("Juan ","quispe canaletas",'15450885',3,'A','3','A','2','A'),
@@ -295,7 +295,7 @@ VALUES
       ("Poo Cesar","quispe rivera",'77077399',3,'A','3','A','2','A'),
       ("Julio Cesar","salas chavez",'77077399',3,'A','3','A','2','A'),
       ("Jesus Cesar"," chavez",'77077399',3,'A','3','A','2','A'),
-      ("Benja Cesar","quispe chavez",15459885',3,'A','3','A','2','A'),
+      ("Benja Cesar","quispe chavez",'15459885',3,'A','3','A','2','A'),
       ("Pool Cesar","quispe rivera",'2398651',3,'A','3','A','2','A'),
       ("Cesar","quispe canales",'15459885',3,'A','3','A','2','A'),
         ("Alex Cesar","quispe canales",'77077399',3,'A','3','A','2','A'),
@@ -469,7 +469,6 @@ VALUES
   (30,'2019-10-11','4'),
    (31,'2016-10-12','3');
 /*30 registros correctos julio estuvo aqui*/
-  
   SELECT * FROM PRESTAMO_DETALLE;
 
       
