@@ -1,3 +1,4 @@
+  
 USE BOOFLIX;
 SET FOREIGN_KEY_CHECKS=0;
 INSERT INTO PAIS
@@ -219,7 +220,7 @@ VALUES
       ("LIMA","CAÑETE","PACARAN",'987965432'),
       ("LIMA","CAÑETE","ZUÑIGA",'954634356'),
       ("AREQUIPA","CAÑETE","NUEVO IMPERIAL",'911234545'),
-      ("LORETO","CAÑETE","CALANGO",'932543434'),-
+      ("LORETO","CAÑETE","CALANGO",'932543434'),
       ("LIMA","CAÑETE","PACARAN",'987965432'),
       ("LIMA","CAÑETE","ZUÑIGA",'954634356'),
       ("AREQUIPA","CAÑETE","NUEVO IMPERIAL",'911234545'),
@@ -460,7 +461,3 @@ VALUES
    (31,'2016-10-12','3');
 /*30 registros correctos julio estuvo aqui*/
   SELECT * FROM PRESTAMO_DETALLE;
-
-      
-      
-      
