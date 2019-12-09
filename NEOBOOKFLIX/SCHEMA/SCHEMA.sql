@@ -1,4 +1,5 @@
-CREATE DATABASE NEOBOOKFLIX;
+drop database NEOBOOKFLIX;
+CREATE DATABASE NEOBOOKFLIX ;
 USE NEOBOOKFLIX;
 CREATE TABLE AUTOR (
     IDAUT int NOT NULL AUTO_INCREMENT COMMENT 'Código de autor.',
@@ -51,7 +52,7 @@ CREATE TABLE PERSONA (
     NOMPER varchar(100) NULL COMMENT 'Este campo contiene los nombres d la persona.',
     APEPER varchar(100) NULL COMMENT 'Este campo contiene los apellidos de la persona.',
     DNIPER char(8) NULL COMMENT 'Contiene el Documento de Identidad Nacional',
-    IDUBI int NULL COMMENT 'Contiene los datos de donde proviene la persona.',
+    IDUBI int NOT NULL COMMENT 'Contiene los datos de donde proviene la persona.',
     TIPPER char(1) NULL COMMENT 'Contiene los tipos de persona:Administrador, bibliotecario o lector.',
     GRADAUL char(1) NOT NULL COMMENT 'Contiene el grado en caso sea un alumno.',
     SECCAUL char(1) NOT NULL COMMENT 'Contiene en que sección se encuentra el alumno.',
@@ -65,8 +66,8 @@ CREATE TABLE PERSONA (
 -- Table: PRESTAMO_CABECERA
 CREATE TABLE PRESTAMO_CABECERA (
     IDPRES int NOT NULL AUTO_INCREMENT COMMENT 'El codigo de prestamo.',
-    IDBIBLI int NULL COMMENT 'El codigo del bibliotecario.',
-    IDLECT int NULL COMMENT 'El codigo del lector.',
+    IDBIBLI int NOT NULL COMMENT 'El codigo del bibliotecario.',
+    IDLECT int NOT NULL COMMENT 'El codigo del lector.',
     FSALPRES date NULL COMMENT 'Fecha de prestamo del libro.',
     FENTPRES date NULL COMMENT 'Fecha de la devolución del libro.',
     CONSTRAINT PRESTAMO_CABECERA_pk PRIMARY KEY (IDPRES)
@@ -127,4 +128,8 @@ ALTER TABLE PRESTAMO_CABECERA ADD CONSTRAINT PRESTAMO_PERSONA_LECTOR FOREIGN KEY
     REFERENCES PERSONA (IDPER);
 
 -- End of file.
+
+
+
+
 
