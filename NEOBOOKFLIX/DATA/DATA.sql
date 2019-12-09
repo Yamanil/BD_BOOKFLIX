@@ -188,39 +188,39 @@ insert into ubigeo (DEPUBI,PROUBI,DISUBI) VALUES
  ('MADRE DE DIOS','UACAC','GAMARRA');
        
        INSERT INTO libro
-      (IDAUT,IDCAT,IDEDI,TITLIB,CANTLIB,ANNLANZLIB,NUMPAGLIB,DESCLIB,ESTLIB,ESTUS)
+      (IDAUT,IDCAT,IDEDI,TITLIB,ANNLANZLIB,NUMPAGLIB,DESCLIB,ESTLIB,ESTUS)
 VALUES
- (1,2,3,'Una historia en la Habana',14,'2019',246,'Son los oscuros recodos de la mente , los detalle que mellan u alama hasta convertirla en aasesina','N','A'), 
- (1,2,3,'Una historia en Alemania',14,'2019',246,'Son los oscuros recodos de la mente , los detalle que mellan u alama hasta convertirla en aasesina','N','A'),
-       (4,5,6,'Los que miran las estrellas',14,'2019',360,'los que miran las estrellas es un thriller policial donde acontecen varios casos basados en hechos reales','N','A'),
-       (7,5,6,'America fotografeada',14,'2019',160,'libros de fotografia de america del sur y centro america del fotografo leones david fecha','N','A'),
-       (9,9,6,'Diario de a bordo',14,'2019',392,'El naufrago de un pequeño yate, que queda varado deja al descurbierto un escenario macabro y demaciadas preguntas sin respuesta','N','A'),
-       (4,4,6,'Una mirada perdida',14,'2018',178,'La desaparicion de un niño chino pone en maarcha una investigacion a cargo de un grupo vapriopinto de personajes queiens adetran en el mundo de la comunidad chin','N','I'),
-       (4,3,6,'La vida prometida',14,'2017',184,'En ciudadania un diminuto pueblo de estados unidos un hombre de 45 años job se hace pasar por vidente','N','I'),
-       (3,2,1,'Nacionalismo catalan',14,'2009',266,'El nacionalismo catalán durante años ha llevado a cabo un proceso intencional y gradualista de influencia adoctrinadora con fines ideológicos, políticos y lingüísticos','N','I'),
-       (7,8,7,'La confesion del libio',14,'2010',146,'Un escritor, extravagante y caprichoso, se encuentra en sequía creativa y decide contar lo que no quiso nunca hacer, la historia de lo ocurrido en 1981 a un amigo apodado El Libio','A','I'),
-       (5,4,4,'Cinco dias para matar al Papa',14,'2001',264,'En “Cinco días para matar al Papa” el sexo, la religión y la muerte se dan cita en Santiago de Compostela a cinco días de la llegada del Papa.','N','A'),
-       (3,3,4,'Hijos del fuego',14,'2005',450,'Editorial Amarante presenta "Hijos del fuego", el culmen de la trilogía de Joaquín Castillo. ','A','I'),
-       (2,5,9,'ATARDECER',14,'2006',450,'Editorial Amarante presenta "ATARDECER", el culmen de la trilogía de Joaquín Castillo. ','A','I'),
-       (3,7,8,'Hijos del fuego',14,'2009',450,'Lo que sea", todo fuese. ','N','A'),
-       (7,1,7,'Hijos del Agua',14,'2007',450,'Fulminante", Respeto. ','A','I'),
-       (9,9,4,'Hijos de la Tierra',14,'2003',450,'Nada, La fantastica historia de heroes ','A','A'),
-       (3,6,5,'Hijos de las Hojas',14,'2004',450,'Ideas, Para que hacer lo mismo ','A','I'),
-       (8,4,3,'Hijos del Aire',14,'2004',450,'Vamo a ver','N','A'),
-       (7,5,6,'America fotografeada',14,'2015',160,'libros de fotografia de america del sur y centro america del fotografo leones david fecha','N','A'),
-       (9,9,6,'Diario de a bordo',14,'2016',392,'El naufrago de un pequeño yate, que queda varado deja al descurbierto un escenario macabro y demaciadas preguntas sin respuesta','N','I'),
-       (4,4,6,'Una mirada perdida',14,'2013',178,'La desaparicion de un niño chino pone en maarcha una investigacion a cargo de un grupo vapriopinto de personajes queiens adetran en el mundo de la comunidad chin','N','I'),
-       (4,3,6,'La vida prometida',14,'2013',184,'En ciudadania un diminuto pueblo de estados unidos un hombre de 45 años job se hace pasar por vidente','N','I'),
-       (3,2,1,'Nacionalismo catalan',14,'2013',266,'El nacionalismo catalán durante años ha llevado a cabo un proceso intencional y gradualista de influencia adoctrinadora con fines ideológicos, políticos y lingüísticos','N','A'),
-       (7,8,7,'La confesion del libio',14,'2013',146,'Un escritor, extravagante y caprichoso, se encuentra en sequía creativa y decide contar lo que no quiso nunca hacer, la historia de lo ocurrido en 1981 a un amigo apodado El Libio','N','A'),
-       (5,4,4,'Cinco dias para matar al Papa',14,'2014',264,'En “Cinco días para matar al Papa” el sexo, la religión y la muerte se dan cita en Santiago de Compostela a cinco días de la llegada del Papa.','N','A'),
-       (3,3,4,'Señor de los anillos 1',14,'2000',450,'Editorial Amarante presenta "Hijos del fuego", el culmen de la trilogía de Joaquín Castillo. ','N','A'),
-	   (8,4,3,'Señor de los anillos 2',14,'2001',450,'los orcos se enfrentan con los humanos tratando de salvar el reino','N','I'),
-	   (8,4,3,'Señor de los anillos 3',14,'2003',450,'los humanos ganan la guerra','N','I'),
-	   (8,4,3,'Caperucita roja',14,'2005',450,'un lobo se quiere comer ala niña','N','I'),
-	   (8,4,3,'Pinocho',14,'2002',450,'pinocho es un niño de madera que le gusta engañar','N','I'),
-	   (8,4,3,'Los tres chanchitos',14,'2019',450,'un lobo quiere comerce a los tres cachitos y los chanchitos no se dejan','N','I'),
-	   (8,4,3,'BUENO',14,'2019',450,'Vamo a ver','N','I');
+ (1,2,3,'Una historia en la Habana','2019',246,'Son los oscuros recodos de la mente , los detalle que mellan u alama hasta convertirla en aasesina','N','A'), 
+ (1,2,3,'Una historia en Alemania','2019',246,'Son los oscuros recodos de la mente , los detalle que mellan u alama hasta convertirla en aasesina','N','A'),
+       (4,5,6,'Los que miran las estrellas','2019',360,'los que miran las estrellas es un thriller policial donde acontecen varios casos basados en hechos reales','N','A'),
+       (7,5,6,'America fotografeada','2019',160,'libros de fotografia de america del sur y centro america del fotografo leones david fecha','N','A'),
+       (9,9,6,'Diario de a bordo','2019',392,'El naufrago de un pequeño yate, que queda varado deja al descurbierto un escenario macabro y demaciadas preguntas sin respuesta','N','A'),
+       (4,4,6,'Una mirada perdida','2018',178,'La desaparicion de un niño chino pone en maarcha una investigacion a cargo de un grupo vapriopinto de personajes queiens adetran en el mundo de la comunidad chin','N','I'),
+       (4,3,6,'La vida prometida','2017',184,'En ciudadania un diminuto pueblo de estados unidos un hombre de 45 años job se hace pasar por vidente','N','I'),
+       (3,2,1,'Nacionalismo catalan','2009',266,'El nacionalismo catalán durante años ha llevado a cabo un proceso intencional y gradualista de influencia adoctrinadora con fines ideológicos, políticos y lingüísticos','N','I'),
+       (7,8,7,'La confesion del libio','2010',146,'Un escritor, extravagante y caprichoso, se encuentra en sequía creativa y decide contar lo que no quiso nunca hacer, la historia de lo ocurrido en 1981 a un amigo apodado El Libio','A','I'),
+       (5,4,4,'Cinco dias para matar al Papa','2001',264,'En “Cinco días para matar al Papa” el sexo, la religión y la muerte se dan cita en Santiago de Compostela a cinco días de la llegada del Papa.','N','A'),
+       (3,3,4,'Hijos del fuego','2005',450,'Editorial Amarante presenta "Hijos del fuego", el culmen de la trilogía de Joaquín Castillo. ','A','I'),
+       (2,5,9,'ATARDECER','2006',450,'Editorial Amarante presenta "ATARDECER", el culmen de la trilogía de Joaquín Castillo. ','A','I'),
+       (3,7,8,'Hijos del fuego','2009',450,'Lo que sea", todo fuese. ','N','A'),
+       (7,1,7,'Hijos del Agua','2007',450,'Fulminante", Respeto. ','A','I'),
+       (9,9,4,'Hijos de la Tierra','2003',450,'Nada, La fantastica historia de heroes ','A','A'),
+       (3,6,5,'Hijos de las Hojas','2004',450,'Ideas, Para que hacer lo mismo ','A','I'),
+       (8,4,3,'Hijos del Aire','2004',450,'Vamo a ver','N','A'),
+       (7,5,6,'America fotografeada','2015',160,'libros de fotografia de america del sur y centro america del fotografo leones david fecha','N','A'),
+       (9,9,6,'Diario de a bordo','2016',392,'El naufrago de un pequeño yate, que queda varado deja al descurbierto un escenario macabro y demaciadas preguntas sin respuesta','N','I'),
+       (4,4,6,'Una mirada perdida','2013',178,'La desaparicion de un niño chino pone en maarcha una investigacion a cargo de un grupo vapriopinto de personajes queiens adetran en el mundo de la comunidad chin','N','I'),
+       (4,3,6,'La vida prometida','2013',184,'En ciudadania un diminuto pueblo de estados unidos un hombre de 45 años job se hace pasar por vidente','N','I'),
+       (3,2,1,'Nacionalismo catalan','2013',266,'El nacionalismo catalán durante años ha llevado a cabo un proceso intencional y gradualista de influencia adoctrinadora con fines ideológicos, políticos y lingüísticos','N','A'),
+       (7,8,7,'La confesion del libio','2013',146,'Un escritor, extravagante y caprichoso, se encuentra en sequía creativa y decide contar lo que no quiso nunca hacer, la historia de lo ocurrido en 1981 a un amigo apodado El Libio','N','A'),
+       (5,4,4,'Cinco dias para matar al Papa','2014',264,'En “Cinco días para matar al Papa” el sexo, la religión y la muerte se dan cita en Santiago de Compostela a cinco días de la llegada del Papa.','N','A'),
+       (3,3,4,'Señor de los anillos 1','2000',450,'Editorial Amarante presenta "Hijos del fuego", el culmen de la trilogía de Joaquín Castillo. ','N','A'),
+	   (8,4,3,'Señor de los anillos 2','2001',450,'los orcos se enfrentan con los humanos tratando de salvar el reino','N','I'),
+	   (8,4,3,'Señor de los anillos 3','2003',450,'los humanos ganan la guerra','N','I'),
+	   (8,4,3,'Caperucita roja','2005',450,'un lobo se quiere comer ala niña','N','I'),
+	   (8,4,3,'Pinocho','2002',450,'pinocho es un niño de madera que le gusta engañar','N','I'),
+	   (8,4,3,'Los tres chanchitos','2019',450,'un lobo quiere comerce a los tres cachitos y los chanchitos no se dejan','N','I'),
+	   (8,4,3,'BUENO','2019',450,'Vamo a ver','N','I');
 
        
 
@@ -264,41 +264,39 @@ VALUES
 
      
 INSERT INTO prestamo_cabecera
-         (IDBIBLI,IDLECT,FSALPRES,FENTPRES)
+         (IDBIBLI,IDLECT,FSALPRES,FENTPRES,ESTPRES)
 VALUES
-         (31,1,'2019/02/01','2019/02/23'),
-         (31,2,'2019/02/01','2019/02/23'),
-        (31,3,'2019/02/01','2019/02/23'),
-         (31,4,'2019/02/01','2019/02/21'),
-         (31,5,'2019/02/01','2019/02/21'),
-         (31,6,'2019/02/01','2019/02/21'),
-        (31,7,'2019/02/01','2019/02/24'),
-         (31,8,'2019/02/01','2019/02/25'),
-          (31,9,'2019/02/06','2019/02/06'),
-         (2,10,'2019/02/06','2019/02/06'),
-		(31,11,'2019/02/06','2019/02/06'),
-         (31,12,'2019/02/06','2019/02/06'),
-        (31,13,'2019/02/06','2019/02/06'),
-         (31,14,'2019/02/06','2019/02/06'),
-         (31,15,'2019/02/06','2019/02/06'),
-         (31,16,'2019/02/11','2019/02/20'),
-        (31,17,'2019/02/11','2019/02/20'),
-         (31,18,'2019/02/11','2019/02/20'),
-          (31,19,'2019/02/11','2019/02/20'),
-         (2,20,'2019/02/11','2019/02/20'),
-		(31,21,'2019/02/11','2019/02/20'),
-         (31,22,'2019/02/11','2019/02/20'),
-        (31,23,'2019/02/11','2019/02/20'),
-         (31,24,'2019/02/14','2019/02/23'),
-         (31,25,'2019/02/14','2019/02/23'),
-         (31,26,'2019/02/14','2019/02/23'),
-        (31,27,'2019/02/14','2019/02/23'),
-         (31,28,'2019/02/14','2019/02/23'),
-          (31,29,'2019/02/14','2019/02/23'),
-         (2,30,'2019/02/14','2019/02/23');
+         (31,1,'2019/02/01','2019/02/23','P'),
+         (31,2,'2019/02/01','2019/02/23','P'),
+        (31,3,'2019/02/01','2019/02/23','P'),
+         (31,4,'2019/02/01','2019/02/21','P'),
+         (31,5,'2019/02/01','2019/02/21','P'),
+         (31,6,'2019/02/01','2019/02/21','P'),
+        (31,7,'2019/02/01','2019/02/24','P'),
+         (31,8,'2019/02/01','2019/02/25','P'),
+          (31,9,'2019/02/06','2019/02/06','P'),
+         (2,10,'2019/02/06','2019/02/06','P'),
+		(31,11,'2019/02/06','2019/02/06','P'),
+         (31,12,'2019/02/06','2019/02/06','P'),
+        (31,13,'2019/02/06','2019/02/06','P'),
+         (31,14,'2019/02/06','2019/02/06','P'),
+         (31,15,'2019/02/06','2019/02/06','P'),
+         (31,16,'2019/02/11','2019/02/20','P'),
+        (31,17,'2019/02/11','2019/02/20','P'),
+         (31,18,'2019/02/11','2019/02/20','P'),
+          (31,19,'2019/02/11','2019/02/20','P'),
+         (2,20,'2019/02/11','2019/02/20','P'),
+		(31,21,'2019/02/11','2019/02/20','P'),
+         (31,22,'2019/02/11','2019/02/20','P'),
+        (31,23,'2019/02/11','2019/02/20','P'),
+         (31,24,'2019/02/14','2019/02/23','P'),
+         (31,25,'2019/02/14','2019/02/23','P'),
+         (31,26,'2019/02/14','2019/02/23','P'),
+        (31,27,'2019/02/14','2019/02/23','P'),
+         (31,28,'2019/02/14','2019/02/23','P'),
+          (31,29,'2019/02/14','2019/02/23','P'),
+         (2,30,'2019/02/14','2019/02/23','P');
           SELECT * FROM PRESTAMO_cabecera;
-          
-
           
           
 
@@ -337,4 +335,5 @@ VALUES
          (26,7),
          (29,3);
          SELECT * FROM prestamo_detalle;
+     
      
