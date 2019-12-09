@@ -1,6 +1,5 @@
-drop database NEOBOOKFLIX;
-CREATE DATABASE NEOBOOKFLIX ;
-USE NEOBOOKFLIX;
+create database neobookflix;
+USE neobookflix;
 CREATE TABLE AUTOR (
     IDAUT int NOT NULL AUTO_INCREMENT COMMENT 'Código de autor.',
     IDPAIS int NOT NULL COMMENT 'Codigo de país.',
@@ -30,7 +29,6 @@ CREATE TABLE LIBRO (
     IDCAT int NOT NULL COMMENT 'El codigo de categoria.',
     IDEDI int NOT NULL COMMENT 'El codigo de editorial.',
     TITLIB varchar(100) NULL COMMENT 'El titulo del libro.',
-    CANTLIB int NULL COMMENT 'Los ejemplares que hay de un libro en la biblioteca.',
     ANNLANZLIB char(4) NOT NULL COMMENT 'El año de lanzamiento del libro.',
     NUMPAGLIB int NOT NULL COMMENT 'El numero de paginas del libro.',
     DESCLIB varchar(500) NOT NULL COMMENT 'Una breve descripción del libro.',
@@ -70,6 +68,7 @@ CREATE TABLE PRESTAMO_CABECERA (
     IDLECT int NOT NULL COMMENT 'El codigo del lector.',
     FSALPRES date NULL COMMENT 'Fecha de prestamo del libro.',
     FENTPRES date NULL COMMENT 'Fecha de la devolución del libro.',
+    ESTPRES char(1) NULL COMMENT 'Referente al préstamo del libro.',
     CONSTRAINT PRESTAMO_CABECERA_pk PRIMARY KEY (IDPRES)
 );
 
@@ -126,9 +125,6 @@ ALTER TABLE PRESTAMO_CABECERA ADD CONSTRAINT PRESTAMO_PERSONA_BIBLIOTECARIO FORE
 -- Reference: PRESTAMO_PERSONA_LECTOR (table: PRESTAMO_CABECERA)
 ALTER TABLE PRESTAMO_CABECERA ADD CONSTRAINT PRESTAMO_PERSONA_LECTOR FOREIGN KEY PRESTAMO_PERSONA_LECTOR (IDLECT)
     REFERENCES PERSONA (IDPER);
-
--- End of file.
-
 
 
 
